@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background-color: black;
+    background-image: url("1.1.png");
+
+}
+.welcome {
+  font-size: 200px;
+  margin: 0 auto;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+.AllLayoutButtons{
+  color : black;
+  font-size: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.CreateButton{
+  color : black;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-left: 500px;
+  margin-top: -62px;
+  display: flex;
+  flex-direction: column;
+}
+
+.AllButton {
+  color : black;
+  font-size: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.HomeButton {
+  color : black;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-left: 300px;
+  margin-top: -61px;
+  display: flex;
+  flex-direction: column;
+}
+
+a:link {
+  color : black;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+}
+a:visited {
+  color : white;
+}
+a:hover {
+  color : black;
+}
+a:active {
+  color : grey;
+}
+
+.button1 {
+  color : black;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.button2 {
+  color : black;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-left: 22px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+}
+
+.button3 {
+  color : black;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-left: 80px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.button4 {
+  color : black;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+}
+.wholeform {
+  color : grey;
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.show {
+
+  color : white;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.show2 {
+  background-image: url("1.4.png");
+  margin: 0 auto;
+  margin-left: -50px;
+  margin-top: -1px;
+}
+
+.delete {
+  size: 200%;
+  margin: 0 auto;
+  margin-left: 50px;
+}
+
+.music_player {
+  margin: 0 auto;
+  margin-left: 1100px;
+  margin-top: -900px;
+  visibility: hidden;
+}

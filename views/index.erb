@@ -1,0 +1,27 @@
+<div class="show2">
+  
+<div class="show">
+
+<% for student in @students %>
+<p>Student name : <%=student.pretty_name%> </p>
+<p>age : <%=student.age%> </p>
+<p>house : <%=student.house.name%> </p>
+
+<p> <a href="/student/<%=student.id%>">Show Details</a></p>
+
+
+<form method="post" action="/student/<%= student.id %>/delete">
+  <div class="delete">
+  <input type="submit" value="Delete Order"/>
+  <p>               </p>
+  <p> ______________________________________              </p>
+   </div>
+</form>
+
+
+
+<%end%>
+
+</div>
+
+</div>
